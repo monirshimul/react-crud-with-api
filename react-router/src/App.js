@@ -5,6 +5,7 @@ import AddPerson from './components/AddPerson'
 import Person from './components/Person'
 import Update from './components/Update'
 
+
 function App() {
 
 
@@ -18,6 +19,7 @@ function App() {
           <Route path="/person" exact component={Person} />
           <Route path="/update" exact component={Update} />
         </Switch>
+
 
       </div>
     </Router>
